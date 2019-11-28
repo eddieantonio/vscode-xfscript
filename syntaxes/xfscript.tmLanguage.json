@@ -7,6 +7,15 @@
 		},
 		{
 			"include": "#defines"
+		},
+		{
+			"include": "#operations"
+		},
+		{
+			"include": "#paths"
+		},
+		{
+			"include": "#arguments"
 		}
 	],
 	"repository": {
@@ -23,10 +32,42 @@
 					"match": "\\b(define)\\s*(\\w+)",
 					"captures": {
 						"1": { "name": "storage.type.xfscript" },
-						"2": { "name": "entity.name.function.xfscript" }
+						"2": { "name": "entity.name.type.xfscript" }
 					}
 				}
 			]
+		},
+		"operations": {
+			"patterns": [
+				{
+					"name": "support.function.xfscript",
+					"match": "\\b(quit|set|show|source|system)\\b"
+				},
+				{
+					"name": "support.function.xfscript",
+					"match": "\\b(clear|list|load|pop|push|read|rotate|save|turn|undefine|unlist|write)\\b"
+				},
+				{
+					"name": "support.function.xfscript",
+					"match": "\\b(apply|apropos|echo|help|inspect|print)\\b"
+				},
+				{
+					"name": "support.function.xfscript",
+					"match": "\\b(add|cleanup|compact sigma|compile-replace|complete|compose|concatenate|crossproduct|determinize|epsilon-remove|intersect|invert|label|lower-side|minimize|minus|name|negate|one-plus|prune|properties|reverse|shuffle|sigma|sort|substitute|sub-string|union|upper-side|zero-plus)\\b"
+				}
+			]
+		},
+		"paths": {
+			"patterns": [{
+				"name": "string.unquoted.xfscript",
+				"match": "([.]+\\w*/)*(\\w+[.])+\\w+\\b"
+			}]
+		},
+		"arguments": {
+			"patterns": [{
+				"name": "support.variable.xfscript",
+				"match": "\\b(upper|lower|net|stack|defined|labeled|aliases|directory|file-info|flags|labels|label-tally|lists|longest-string|longest-string-size|lower-words|name|random-lower|random-upper|random-words|sigma|sigma-tally|sigma-word-tally|size|upper-words|words|properties|substring|lexc|prolog|regex|spaced-text|text|up|down)\\b"
+			}]
 		}
 	},
 	"scopeName": "source.xfscript"
