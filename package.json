@@ -3,9 +3,15 @@
     "displayName": "xfscript",
     "description": "Syntax highlighting for XFScript (xfst, HFST, Foma)",
     "version": "0.0.1",
+    "license": "mit",
     "engines": {
         "vscode": "^1.40.0"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/eddieantonio/vscode-xfscript.git"
+    },
+    "publisher": "eddieantonio",
     "categories": [
         "Programming Languages"
     ],
