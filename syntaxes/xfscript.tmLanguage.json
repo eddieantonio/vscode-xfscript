@@ -3,27 +3,19 @@
 	"name": "XFScript",
 	"patterns": [
 		{
-			"include": "#keywords"
-		},
-		{
-			"include": "#strings"
+			"include": "#defines"
 		}
 	],
 	"repository": {
-		"keywords": {
-			"patterns": [{
-				"name": "keyword.control.xfscript",
-				"match": "\\b(if|while|for|return)\\b"
-			}]
-		},
-		"strings": {
-			"name": "string.quoted.double.xfscript",
-			"begin": "\"",
-			"end": "\"",
+		"defines": {
 			"patterns": [
 				{
-					"name": "constant.character.escape.xfscript",
-					"match": "\\\\."
+					"name": "meta.define.xfscript",
+					"match": "\\b(define)\\s*(\\w+)",
+					"captures": {
+						"1": { "name": "storage.type.xfscript" },
+						"2": { "name": "entity.name.function.xfscript" }
+					}
 				}
 			]
 		}

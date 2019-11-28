@@ -13,7 +13,7 @@
         "languages": [{
             "id": "xfscript",
             "aliases": ["XFScript", "xfscript"],
-            "extensions": [".xfscript"],
+            "extensions": [".xfscript", ".regex", ".hfscript"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
