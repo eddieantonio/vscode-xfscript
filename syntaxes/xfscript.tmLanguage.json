@@ -3,10 +3,19 @@
 	"name": "XFScript",
 	"patterns": [
 		{
+			"include": "#comments"
+		},
+		{
 			"include": "#defines"
 		}
 	],
 	"repository": {
+		"comments": {
+			"patterns": [{
+				"name": "comment.line.exclamation-mark.lexc",
+				"match": "!.*"
+			}]
+		},
 		"defines": {
 			"patterns": [
 				{
