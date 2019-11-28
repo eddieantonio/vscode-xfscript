@@ -1,0 +1,25 @@
+{
+    "name": "xfscript",
+    "displayName": "xfscript",
+    "description": "Syntax highlighting for XFScript (xfst, HFST, Foma)",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.40.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "xfscript",
+            "aliases": ["XFScript", "xfscript"],
+            "extensions": [".xfscript"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "xfscript",
+            "scopeName": "source.xfscript",
+            "path": "./syntaxes/xfscript.tmLanguage.json"
+        }]
+    }
+}
