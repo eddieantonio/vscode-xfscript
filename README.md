@@ -1,10 +1,10 @@
 # xfscript README
 
-Provides syntax highlighting for `xfscript` files -- script files for `xfst`, HFST, Foma, and friends.
+Provides syntax highlighting for `xfscript` files — script files for `xfst`, HFST, Foma, and friends.
 
 ## Features
 
-<!-- TODO: put image here! -->
+![A colourful screenshot showing off the syntax higlighting for xfscript files.](./images/xfscript-highlight.png)
 
 ## Release Notes
 
