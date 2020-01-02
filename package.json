@@ -19,7 +19,7 @@
         "languages": [{
             "id": "xfscript",
             "aliases": ["XFScript", "xfscript"],
-            "extensions": [".xfscript", ".regex", ".hfscript"],
+            "extensions": [".xfscript", ".regex", ".hfscript", ".fomascript"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
