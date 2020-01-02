@@ -28,7 +28,7 @@
 		"comments": {
 			"patterns": [{
 				"name": "comment.line.exclamation-mark.lexc",
-				"match": "!.*"
+				"match": "#.*"
 			}]
 		},
 		"defines": {
