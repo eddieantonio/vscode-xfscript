@@ -17,3 +17,9 @@ Use `#` comments.
 ### 0.0.1
 
 Initial release of `xfscript`
+
+## License
+
+Copyright © 2019, 2020 National Research Council Canada.
+
+Licensed under the MIT license.
