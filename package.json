@@ -2,7 +2,7 @@
     "name": "xfscript",
     "displayName": "xfscript",
     "description": "Syntax highlighting for XFScript (xfst, HFST, Foma)",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "license": "mit",
     "engines": {
         "vscode": "^1.40.0"
