@@ -8,6 +8,10 @@ Provides syntax highlighting for `xfscript` files — script files for `xfst`, H
 
 ## Release Notes
 
+Better comment matching (thanks [taiqihe](https://github.com/taiqihe)!)
+
+### 0.0.2
+
 ### 0.0.2
 
 Add `.fomascript` extension.
